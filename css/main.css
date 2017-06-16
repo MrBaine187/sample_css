@@ -134,6 +134,9 @@ h2 ~ p {
   text-align: center;
   margin-top: 30px;
 }
+.footer .social-icons {
+  padding-top: 20px;
+}
 .footer-logo img {
   width: 50px;
 }
@@ -156,11 +159,18 @@ h2 ~ p {
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
-  height: 50vh;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+  padding-top: 10vh;
+}
+.hero-home {
+  background-image: url(/images/shark.jpg);
+  background-position: center top;
 }
 
 /* SOCIAL STYLES */
-.social-icons {
+.social-link {
   background: rgba(150, 150, 150, 0.5);
   border-radius: 99px;
   box-sizing: border-box;
@@ -171,21 +181,32 @@ h2 ~ p {
   font-weight: bold;
   height: 2.5em;
   line-height: 1;
-  padding-top: 0.85em;
-}
-.social-list {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-}
-.social-list > li {
-  display: inline-block;
-  margin: 0 0.5em;
-}
-.social-link {
+  padding-top: .85em;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
+  width: 2.5em;
+}
+.social-icons {
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: center;
+}
+.social-icons a {
+  color: #fff
+}
+.social-icons li {
+  background: rgba(150, 150, 150, 0.5);
+  border-radius: 99px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: helvetica, arial, sans;
+  font-size: 1em;
+  font-weight: bold;
+  height: 2.5em;
+  line-height: 1;
+  padding-top: 0.85em;
+  margin: 0 0.5em;
   width: 2.5em;
 }
 /* BIO STYLES */
